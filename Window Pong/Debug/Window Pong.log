@@ -1,0 +1,26 @@
+﻿  App.cpp
+  Area.cpp
+  Ball.cpp
+  BasicDraw.cpp
+  Enemy.cpp
+  Player.cpp
+  Point.cpp
+  Source.cpp
+  Texture.cpp
+  Vector.cpp
+  Window.cpp
+C:\Users\Filip\source\repos\Window Pong\Window Pong\Window.cpp(6,89): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\Filip\source\repos\Window Pong\Window Pong\Window.cpp(6,70): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\Filip\source\repos\Window Pong\Window Pong\Window.cpp(6,58): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\Filip\source\repos\Window Pong\Window Pong\Window.cpp(6,49): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\Filip\source\repos\Window Pong\Window Pong\Window.cpp(14,89): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\Filip\source\repos\Window Pong\Window Pong\Window.cpp(14,70): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\Filip\source\repos\Window Pong\Window Pong\Window.cpp(14,58): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\Filip\source\repos\Window Pong\Window Pong\Window.cpp(14,49): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\Filip\source\repos\Window Pong\Window Pong\Window.cpp(27,47): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\Filip\source\repos\Window Pong\Window Pong\Window.cpp(27,38): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\Filip\source\repos\Window Pong\Window Pong\Window.cpp(32,45): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\Filip\source\repos\Window Pong\Window Pong\Window.cpp(32,35): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  Generating Code...
+C:\Users\Filip\source\repos\Window Pong\Window Pong\Vector.cpp(22): warning C4717: 'Vector::set': recursive on all control paths, function will cause runtime stack overflow
+  Window Pong.vcxproj -> C:\Users\Filip\source\repos\Window Pong\Debug\Window Pong.exe
