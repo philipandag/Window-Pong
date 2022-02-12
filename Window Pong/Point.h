@@ -22,6 +22,7 @@ public:
 	Point operator*(Point p);
 	void operator+=(Point p);
 	void operator-=(Point p);
+	void operator*=(Point p);
 
 	double x();
 	double y();

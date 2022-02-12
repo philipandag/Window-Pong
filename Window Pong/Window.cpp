@@ -26,6 +26,7 @@ void Window::setPosition(Point p)
 	Area::setPosition(p);
 	SDL_SetWindowPosition(window_, p1_.x(), p1_.y());
 }
+
 void Window::setSize(Point p)
 {
 	Area::setSize(p);

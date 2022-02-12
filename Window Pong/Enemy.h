@@ -1,7 +1,10 @@
 #pragma once
-#include "Window.h"
+#include "Player.h"
+
 class Enemy
-	:Window
+	:public Player
 {
+public:
+	void autoMove(Point ballPos);
 };
 

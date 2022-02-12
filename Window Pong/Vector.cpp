@@ -2,7 +2,7 @@
 
 Vector::Vector(double x, double y)
 	: Point(x, y)
-{ 
+{
 }
 
 Vector::Vector(int x, int y)
@@ -10,10 +10,15 @@ Vector::Vector(int x, int y)
 {
 }
 
-void Vector::toUnitV()
+Vector::Vector(Point p1, Point p2)
+	: Point(p2.x() - p1.x(), p2.y() - p1.y())
 {
-	double mag = x() * x() + y() * y();
-	set(x() / mag, y() / mag);
+}
+
+Vector Vector::toUnitV()
+{
+	double mag = sqrt(x() * x() + y() * y());
+	return Vector(x() / mag, y() / mag);
 }
 
 void Vector::set(Point p1, Point p2)

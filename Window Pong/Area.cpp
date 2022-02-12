@@ -14,6 +14,11 @@ void Area::operator=(Area a)
 	dim_ = a.dim_;
 }
 
+Area Area::operator+(Vector v)
+{
+	return Area(p1_ + v, p2_ + v);
+}
+
 void Area::setSize(Point p)
 {
 	p2_ = p1_ + p;
@@ -42,3 +47,7 @@ bool Area::collidesWith(Area other)
 		);
 }
 
+Point Area::center()
+{
+	return Point(p1_.x() + (p2_.x() - p1_.x()) / 2, p1_.y() + (p2_.y() - p1_.y()) / 2);
+}

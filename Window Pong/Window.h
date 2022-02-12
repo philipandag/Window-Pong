@@ -5,7 +5,7 @@
 using std::string;
 
 class Window 
-	: protected Area
+	: public Area
 {
 protected:
 	SDL_Window* window_;
